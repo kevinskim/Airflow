@@ -1,0 +1,10 @@
+How to run the deploy job to a server
+
+Go to Jenkins Server http://54.172.102.251:8080/job/Airflow/ & press "Build with Parameters"
+You will need to enter IP or Servername of the AWS instance for Airflow app to run deploy script.
+
+Prerequistie:
+You will need to copy public ssh-key for jenkins user to the deployed server ec2-user's authorized_keys
+
+
+
